@@ -13,23 +13,19 @@
     Display json data
 </h1>
 <div id="json_data">
-
-    <div id="data">
-        
-    </div>
+    
 </div>
 
 <script type="text/javascript">
 
-
-
     var jqxhr = $.getJSON("products.json", function () {
-            //console.log(jqxhr);
-        console.log("success");
 
-        //TODO handle data here
+            //TODO handle data here
 
-        })
+        var product = product_list.product;
+            console.log(product);
+
+    })
         .fail(function() {
             alert("Something went wrong, please re-load the page and try again.");
         });
