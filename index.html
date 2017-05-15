@@ -20,12 +20,14 @@
 
     var jqxhr = $.getJSON("products.json", function () {
 
-            //TODO handle data here
+        //TODO handle data here
+        //first, simply display the product list
+            //var product = product_list.product;
+            //console.log(product);
 
-        var product = product_list.product;
-            console.log(product);
+            console.log(jqxhr);
 
-    })
+        })
         .fail(function() {
             alert("Something went wrong, please re-load the page and try again.");
         });
