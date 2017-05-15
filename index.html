@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/products.json" type="text/javascript"></script>
+    <title>Quote Generator</title>
+</head>
+<body>
+<h1>
+    Display json data
+</h1>
+<script>
+    //todo, get the json products to display
+    $.getJSON("products.json", function (data) {
+        var products = JSON.parse(data);
+        $("body").innerHTML(product[1]); // this will show the info it in firebug console
+    });
+</script>
+
+</body>
+</html>
