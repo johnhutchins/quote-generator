@@ -27,9 +27,8 @@
         var i,
             text = '';
         for (i = 0; i < product.length; i++) {
-                console.log(product[i].name);
+            console.log("Item Number:", product[i].id, product[i].name, "$", product[i].price);
             }
-
         })
         .fail(function() {
             alert("Something went wrong, please re-load the page and try again.");
