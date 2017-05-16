@@ -18,14 +18,17 @@
 
 <script type="text/javascript">
 
-    var jqxhr = $.getJSON("products.json", function () {
+    var jqxhr = $.getJSON("products.json", function (product) {
 
             //TODO handle data here
             //first, simply display the product list
             //var product = product_list.product;
-            //console.log(product);
 
-            console.log(jqxhr);
+        var i,
+            text = '';
+        for (i = 0; i < product.length; i++) {
+                console.log(product[i].name);
+            }
 
         })
         .fail(function() {
