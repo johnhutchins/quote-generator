@@ -1,6 +1,6 @@
 ﻿$(function () {
     var total = 0,
-    selected = $("select option:selected").text();
-
-    console.log(selected);   
+    selected_element = $("select option:selected").val();
+    
+    console.log(selected_element, "is selected");
 });
