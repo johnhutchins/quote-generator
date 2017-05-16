@@ -13,22 +13,30 @@
     Display json data
 </h1>
 <div id="json_data">
+    <table>
+        <tbody>
+        
+        </tbody>
+    </table>
     
+    <select>
+        
+    </select>
 </div>
 
 <script type="text/javascript">
 
     var jqxhr = $.getJSON("products.json", function (product) {
 
-            //TODO handle data here
-            //first, simply display the product list
-            //var product = product_list.product;
+        $.each(product, function (key, value) {
+            //how to get the KEY to be the name of the product?
+            //Do I even need the KEY in this example?
+            $("tbody").append("<tr>" + "<td>" + value.name + ": $" + value.price + "</td>" + "</tr>");
 
-        var i,
-            text = '';
-        for (i = 0; i < product.length; i++) {
-            console.log("Item Number:", product[i].id, product[i].name, "$", product[i].price);
-            }
+            //refactor this with knockout.js
+            $("select").append("<option>" + value.name + " $" + value.price + "</option>");
+        });
+
         })
         .fail(function() {
             alert("Something went wrong, please re-load the page and try again.");

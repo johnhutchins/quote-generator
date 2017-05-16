@@ -18,5 +18,15 @@
     "id": 609,
     "name": "Pre-School Hand Scoring Starter Kit",
     "price": 215
+  },
+  {
+    "id": 601,
+    "name": "CBCL 1.5-5",
+    "price": 30
+  },
+  {
+    "id": 602,
+    "name": "CBCL 1.5-5 Hand Scoring Profile",
+    "price": 30
   }
 ]
