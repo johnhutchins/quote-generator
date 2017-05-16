@@ -8,28 +8,30 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!--  <script src="products.json" type="application/json"></script> -->
+    <!--  <script src="products.json" type="application/json"></script> -->
     <title>Quote Generator</title>
 </head>
 <body>
+    <div class="container-fluid">
+    <h1>
+        Display json data
+    </h1>
+    <div class="row">
+        <div id="json_data" class="col-md-6">
+            <table>
+                <tbody></tbody>
+            </table>
 
-<h1>
-    Display json data
-</h1>
-<div id="json_data">
-    <table>
-        <tbody>
-        
-        </tbody>
-    </table>
-    
-    <select>
-        
-    </select>
+            <select></select>
+        </div>
+
+        <div id="customer_information" class="col-md-6">
+            <!--Display Customer address and order information here-->
+        </div>
+    </div>
 </div>
-
-<script src="scripts/index.js"></script>
-<script src="scripts/calculator.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/calculator.js"></script>
 
 
 </body>
