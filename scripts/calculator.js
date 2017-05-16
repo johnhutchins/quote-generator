@@ -1,7 +1,6 @@
 ﻿$(function () {
-    $("select").on("click", function () {
-        console.log("option clicked"); 
-        //calculate the total chosen here
-        //$("option").attr("class", "focus");
-    })
+    var total = 0,
+    selected = $("select option:selected").text();
+
+    console.log(selected);   
 });
