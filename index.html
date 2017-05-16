@@ -31,7 +31,7 @@
         $.each(product, function (key, value) {
             //how to get the KEY to be the name of the product?
             //Do I even need the KEY in this example?
-            $("tbody").append("<tr>" + "<td>" + value.name + ": $" + value.price + "</td>" + "</tr>");
+           // $("tbody").append("<tr>" + "<td>" + value.name + ": $" + value.price + "</td>" + "</tr>");
 
             //refactor this with knockout.js
             $("select").append("<option>" + value.name + " $" + value.price + "</option>");

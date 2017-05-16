@@ -1,8 +1,29 @@
+//[
+//  {
+//    "name": "xxxxxxx",
+//    "stuff": {
+//      "id": "777",
+//      "price": "745",
+//      "ageGroup": "Pre-School"
+//    }
+//  },
+//  {
+//    "name": "xxxxxxx",
+//    "stuff": {
+//      "id": "777",
+//      "price": "745",
+//      "ageGroup": "Pre-School"
+//    }
+//  }
+
+//]
 [
+
   {
-    "id": 620,
     "name": "Pre-School ASEBA-PC",
+    "id": 620,
     "price": 355
+
   },
   {
     "id": "620U",
@@ -20,6 +41,11 @@
     "price": 215
   },
   {
+    "id": 600,
+    "name": "Spanish CBCL 1.5-5",
+    "price": 30
+  },
+  {
     "id": 601,
     "name": "CBCL 1.5-5",
     "price": 30
@@ -28,5 +54,30 @@
     "id": 602,
     "name": "CBCL 1.5-5 Hand Scoring Profile",
     "price": 30
+  },
+  {
+    "id": 603,
+    "name": "CBCL 1.5-5 LDS Profile",
+    "price": 30
+  },
+  {
+    "id": 604,
+    "name": "CBCL 1.5-5 Template for Hand Scoring",
+    "price": 9
+  },
+  {
+    "id": 901,
+    "name": "C-TRF 1.5-5",
+    "price": 30
+  },
+  {
+    "id": 902,
+    "name": "C-TRF Hand Scoring Profile",
+    "price": 30
+  },
+  {
+    "id": 904,
+    "name": "C-TRF Template for Hand Scoring",
+    "price": 9
   }
 ]
