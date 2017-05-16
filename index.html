@@ -38,8 +38,8 @@
         });
 
         })
-        .fail(function() {
-            alert("Something went wrong, please re-load the page and try again.");
+        .fail(function(error) {
+            alert("Something went wrong, please re-load the page and try again. The Error Is: ", error);
         });
 
 </script>
